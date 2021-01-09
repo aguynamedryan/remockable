@@ -1,6 +1,7 @@
 language: ruby
 cache: bundler
-script: bundler update --bundler && bundle exec rspec
+before_install: bundler update --bundler
+script: bundle exec rspec
 sudo: false
 
 gemfile:
