@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rspec-mocks', '~> 3.0'
   spec.add_development_dependency 'appraisal', '~> 2.1'
   spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'sqlite3', '~> 1.3.4'
+  spec.add_development_dependency 'sqlite3', '~> 1.4.2'
 
   spec.files = `git ls-files`.split($/)
   spec.executables = spec.files.grep(%r{^bin/}) { |file| File.basename(file) }
