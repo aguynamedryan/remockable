@@ -52,9 +52,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activemodel (~> 6.1)
-  activerecord (~> 6.1)
-  activesupport (~> 6.1)
+  activemodel (~> 6.1.0)
+  activerecord (~> 6.1.0)
+  activesupport (~> 6.1.0)
   appraisal (~> 2.1)
   rake
   remockable!
