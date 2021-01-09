@@ -1,6 +1,6 @@
 language: ruby
 cache: bundler
-before_install: bundler update --bundler
+before_install: gem install bundler:2.1.4
 script: bundle exec rspec
 sudo: false
 
